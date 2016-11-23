@@ -1,0 +1,151 @@
+/* h1 {
+	font-size: 30px;
+	line-height: 0%;
+}
+h2 {
+	font-size: 15px;
+	line-height: 0%;
+	margin-left: 550px;
+
+} */
+body {
+    overflow: hidden;
+}
+.portfolio {
+
+}
+.red {
+	background: red;
+}
+
+.img-circle {
+	    border: solid;
+}
+.footer_gui_wrapper {
+
+}
+.spell_icons_wrapper {
+	float: right;
+    position: absolute;
+    top: 71px;
+    right: -9px;
+}
+#spell_icons {
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+
+}
+#spell_icons li img {
+	    margin-right: 2px;
+	        border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+}
+#main {
+   width: 100%;
+   height: auto;
+   background-color: pink;
+}
+.profile_wrapper {
+	margin-left: 1.3%;
+	    height: 25%;
+
+}
+.profile-img {
+	max-width:  48%;
+	    border-style: solid;
+    border-width: 4px;
+}
+.player_profile {
+        width: 247px;
+  position: absolute;	
+} 
+.health_bar {
+    text-align: center;
+    height: 0.8rem;
+ }
+ .name_bar {
+    background: #f2f2f2;
+	height: 1.3rem;
+        line-height: 15px;
+            border: 0.5px solid;
+ }
+ .personality_bar{
+    background: #8092f1;
+
+    line-height: 7px;
+    font-size: 8px;
+        border: 0.5px solid;
+ }
+  .personality_bar p{
+        font-weight: bold;
+    line-height: 11px;
+ }
+
+ .skill_bar {
+ 	background: #49ff00; 
+    line-height: 7px;
+    font-size: 8px;
+        border: 0.5px solid;
+}
+ .skill_bar p {
+ 	    font-weight: bold;
+    line-height: 11px;
+}
+.health_wrapper {
+	background: #f3f3f3;
+	width: 57%;
+    float: right;
+    top: 21px;
+    position: absolute;
+    right: -7px;
+    border: 2px solid;
+}
+canvas {
+  background-image: url("http://vignette2.wikia.nocookie.net/asuraswrath/images/2/27/Space.png/revision/latest?cb=20130706130843");
+  width: 100%;
+  height: auto;
+ border: 9px dashed black;
+ background-size: cover ;
+	background-repeat: no-repeat ;
+}
+.text-center {
+	text-align: center;
+}
+/* .hidden {	
+	display: none;
+} */
+.player_hover_ui {
+    width: 200px;
+    margin-left: 535px;
+    margin-top: 339px;
+    background: #c05a46;
+    position: absolute;
+    height: 65px;
+}
+.bck-red {
+	background: #c05a46;
+}
+ .icon3-img  {
+ 	    bottom: 1.7rem;    
+    position: relative;
+    left: -5rem;
+        height: 33px;
+    width: 32px;
+ }
+ .icon2-img {
+     bottom: 3.1rem;
+    position: relative;
+    left: -4.5rem;
+    height: 35px;
+    width: 36px;
+ }
+ .icon1-img {
+ 	    bottom: 6rem;
+    position: relative;
+    left: -2rem;
+ }
+.hidden {
+	display: none;
+}
